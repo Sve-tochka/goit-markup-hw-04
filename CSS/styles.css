@@ -11,6 +11,7 @@
   --footer-goit: rgba(255, 255, 255, 0.4);
   --portfolio-text-background: rgba(33, 150, 243, 0.9);
   --hero-development-background: rgba(47, 48, 58, 0.8);
+  --soc-color: #AFB1B8;
 }
 
 
@@ -134,14 +135,30 @@ h1 {
   color: var(--accent-color);
 }
 
-.auth-nav-icon {
-  padding: 0;
-  border: none;
-  color: red;
-  background-color: teal;
-  width: 100;
-  height: 100;
+.auth-nav-link{
+  display: flex;
+  color: var(--title-text-color);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02rem;
+  text-decoration: none;
+  padding-top: 32px;
+  padding-bottom: 32px;
+  align-items: center;
 }
+
+.auth-nav-link:hover, 
+.auth-nav-link:focus {
+  color: var(--accent-color);
+}
+
+.svg-icons {
+  fill: currentColor;
+  margin-right: 10px;
+}
+
+
 
 /*---------------------------------------------------*/
 .hero {  
@@ -192,14 +209,12 @@ h1 {
 .feature-img {
   background: var(--page-background);
   border-radius: 4px;
-} 
 
-.feature img{
-  display: block;
-  margin: 0 auto;
-  padding-top: 25px;
-  padding-bottom: 25px;
-}
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 120px;
+} 
 
 .feature-title {
   margin-top: 30px;
@@ -374,6 +389,26 @@ h1 {
 
   margin-top: 0;
 }
+
+.soc-icon-team {
+  fill: currentColor;
+}
+
+.social-list-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 44px;
+  border-radius: 50%;
+  color: var(--soc-color);
+  height: 44px;
+}
+
+.social-list-link:hover {
+  color: var(--white-color);
+  background-color: var(--accent-color);
+}
+
 
 /*---------------------------------------------------*/
 .customers {
