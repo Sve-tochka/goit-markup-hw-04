@@ -20,14 +20,27 @@
           </a>
         </h1>
         <ul class="site-nav list">
-          <li class="item"><a class="link" href="./index.html">Студия</a></li>
-          <li class="item"><a class="link current" href="./portfolio.html">Портфолио</a></li>
+          <li class="item"><a class="link current" href="./index.html">Студия</a></li>
+          <li class="item"><a class="link" href="./portfolio.html">Портфолио</a></li>
           <li class="item"><a class="link" href="./portfolio.html">Контакты</a></li>
         </ul>
-    
+
         <ul class="auth-nav list">
-          <li class="item"><a class="link" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-          <li class="item"><a class="link" href="tel:+380961111111">+38 096 111 11 11</a></li>
+          <li class="item">
+            <a class="link auth-nav-link" href="mailto:info@devstudio.com"> 
+              <svg width="16" height="16" class="svg-icons">
+                <use xlink:href="./images/sprite.svg#icon-envelope"></use>
+              </svg>
+              <span>info@devstudio.com</span>
+            </a>
+          </li>
+          <li class="item">
+            <a class="link auth-nav-link" href="tel:+380961111111">
+            <svg width="10" height="15" class="svg-icons">
+              <use xlink:href="./images/sprite.svg#icon-Vector-1"></use>
+            </svg>
+            <span>+38 096 111 11 11</span>
+          </a></li>
         </ul>
       </nav>
     </header>
@@ -182,64 +195,87 @@
     </main>
 
     <!--footer-->
-    <!--footer-->
     <footer class="main-footer">
       <div class="conteiner">
-        <div>
-          <!--Address-->
+        <div> <!--Address-->
           <h3 class="footer-logo">
             <a href="#">
-              <span class="logo"> Web</span>
-              <span class="footer-logo-text"> Studio</span>
-            </a>
+            <span class="logo"> Web</span>
+            <span class="footer-logo-text"> Studio</span>
+            </a>  
           </h3>
           <address class="footer-adress">
-            <p>г. Киев, пр-т Леси Украинки, 26</p>
-            <a href="mailto:info@example.com">info@example.com</a> <br />
-            <a href="tel:+380991111111">+38 099 111 11 11</a>
+          <p>г. Киев, пр-т Леси Украинки, 26</p>
+          <a href="mailto:info@example.com">info@example.com</a> <br />
+          <a href="tel:+380991111111">+38 099 111 11 11</a>
           </address>
         </div>
-    
-        <div>
-          <!--Присоединяйтесь-->
+
+        <div> <!--Присоединяйтесь-->
           <h3 class="footer-soc">Присоединяйтесь</h3>
           <ul class="social-links list">
-    
+
             <li class="social-links-item">
-              <a href="https://www.instagram.com/?hl=ru" class="social-list-link" target="_blank" rel="noopener noreferrer">
-                <img src="./images-soc/instagram-footer.svg" alt="instagram" />
+              <a
+                href="https://www.instagram.com/?hl=ru"
+                class="footer-social-list-link"
+                target="_blank"
+                rel="noopener noreferrer"> 
+                <svg class="footer-icon">
+                  <use xlink:href="./images/sprite.svg#icon-instagram-f"></use>
+                </svg>                
               </a>
             </li>
-    
+
             <li class="social-links-item">
-              <a href="https://twitter.com/explore" class="social-list-link" target="_blank" rel="noopener noreferrer"><img
-                  src="./images-soc/twitter-footer.svg" alt="twitter" />
+              <a
+                href="https://twitter.com/explore"
+                class="footer-social-list-link"
+                target="_blank"
+                rel="noopener noreferrer">
+                <svg class="footer-icon">
+                  <use xlink:href="./images/sprite.svg#icon-twitter-f"></use>
+                </svg>
               </a>
             </li>
-    
+
             <li class="social-links-item">
-              <a href="https://uk-ua.facebook.com/" class="social-list-link" target="_blank" rel="noopener noreferrer"> <img
-                  src="./images-soc/facebook-footer.svg" alt="facebook" />
+              <a
+                href="https://uk-ua.facebook.com/"
+                class="footer-social-list-link"
+                target="_blank"
+                rel="noopener noreferrer">
+                <svg class="footer-icon">
+                  <use xlink:href="./images/sprite.svg#icon-facebook-f"></use>
+                </svg>
+              </a>
+            </li>  
+                                
+            <li class="social-links-item">
+              <a
+                href="https://www.linkedin.com/"
+                class="footer-social-list-link"
+                target="_blank"
+                rel="noopener noreferrer">
+                <svg class="footer-icon">
+                  <use xlink:href="./images/sprite.svg#icon-linkedin-f"></use>
+                </svg>
               </a>
             </li>
-    
-            <li class="social-links-item">
-              <a href="https://www.linkedin.com/" class="social-list-link" target="_blank" rel="noopener noreferrer"><img
-                  src="./images-soc/linkedin-footer.svg" alt="linkedin" />
-              </a>
-            </li>
-          </ul>
+          </ul>        
         </div>
-    
-        <div>
-          <!--Подпишитесь на рассылку-->
+
+        <div> <!--Подпишитесь на рассылку-->
           <h3 class="footer-soc">Подпишитесь на рассылку</h3>
           <input type="email" name="email" placeholder="E-mail" required />
-          <button class="btn-footer" type="submit"> Подписаться <img class="btn-icon" src="./images-soc/icon-send.svg"
-              alt="кнопка подписаться"></button>
+          <button class="btn-footer"> Подписаться 
+            <svg width="24" height="24" class="footer-send">
+              <use xlink:href="./images/sprite.svg#icon-send-f"></use>
+            </svg>
+          </button>
         </div>
       </div>
-    
+
       <div class="by">
         <span class="goit">2020 | Developed by GoIT Students</span>
       </div>
