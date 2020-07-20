@@ -390,25 +390,24 @@ h1 {
   margin-top: 0;
 }
 
-.soc-icon-team {
-  fill: currentColor;
-}
-
 .social-list-link {
   display: flex;
   justify-content: center;
   align-items: center;
   width: 44px;
+  height: 44px;
   border-radius: 50%;
   color: var(--soc-color);
-  height: 44px;
+}
+
+.soc-icon-team {
+  fill: currentColor;
 }
 
 .social-list-link:hover {
   color: var(--white-color);
   background-color: var(--accent-color);
 }
-
 
 /*---------------------------------------------------*/
 .customers {
